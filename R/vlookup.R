@@ -8,13 +8,13 @@
 #' @keywords left join merge
 #' @export
 #' @examples
-#' vlookup(c("Nick", "Jake", "Tyler", "Nate"), data.frame(name = c("Nick", "Jake", "Tyler", "Nate"), number = 1:4), "name", 2)
+#' VLOOKUP(c("Nick", "Jake", "Tyler", "Nate"), data.frame(name = c("Nick", "Jake", "Tyler", "Nate"), number = 1:4), "name", 2)
 #' @param lookup_vector Values that you would like to join on.
 #' @param lookup_df Data frame that contains values in lookup_vector and other values you would like to connect.
 #' @param join_col_name Name of the column (as a string) that has values from lookup_vector.
 #' @param column_index Column in data frame that you would like returned once lookup value is found in lookup_df.
 #'
-vlookup <- function(lookup_vector, lookup_df, join_col_name, column_index) {
+VLOOKUP <- function(lookup_vector, lookup_df, join_col_name, column_index) {
 
   column_name <- names(lookup_df)[column_index]
   df_1 <- data.frame(join_name = lookup_vector, stringsAsFactors = FALSE)
