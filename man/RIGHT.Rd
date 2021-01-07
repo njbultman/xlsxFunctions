@@ -12,10 +12,10 @@ RIGHT(x, length)
 \item{length}{Number of characters from right you would like returned.}
 }
 \value{
-Returns the number of characters from right in a string/character vector
+Returns the number of characters from right in a string/character vector.
 }
 \description{
-Returns the number of characters from right in a string/character vector
+Returns the number of characters from right in a string/character vector.
 }
 \examples{
 RIGHT("hello world!", 6)

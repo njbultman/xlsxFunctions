@@ -12,10 +12,10 @@ LEFT(x, length)
 \item{length}{Number of characters from left you would like returned.}
 }
 \value{
-Returns the number of characters from left in a string/character vector
+Returns the number of characters from left in a string/character vector.
 }
 \description{
-Returns the number of characters from left in a string/character vector
+Returns the number of characters from left in a string/character vector.
 }
 \examples{
 LEFT("hello world!", 5)
