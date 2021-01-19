@@ -1,4 +1,4 @@
-#' Determine if One of Two Condistions are True
+#' Determine if One of Two Conditions are True
 #'
 #' Evaluates both conditions to determines if one of them is true.
 #'
@@ -15,9 +15,9 @@
 #' @param condition_2 Second condition that you would like evaluated.
 #'
 OR <- function(condition_1, condition_2) {
-  
+
   y <- condition_1 | condition_2
-  
+
   return(y)
-  
+
 }

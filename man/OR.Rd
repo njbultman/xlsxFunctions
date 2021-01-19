@@ -2,7 +2,7 @@
 % Please edit documentation in R/OR.R
 \name{OR}
 \alias{OR}
-\title{Determine if One of Two Condistions are True}
+\title{Determine if One of Two Conditions are True}
 \usage{
 OR(condition_1, condition_2)
 }
