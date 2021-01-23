@@ -26,7 +26,7 @@ DAYS("2017-01-01", "2018-05-28")
 \code{\link{as.Date}}
 }
 \author{
-Nick Bultman, \email{njbultman74@gmail.com}, December 2020
+Nick Bultman, \email{njbultman74@gmail.com}, January 2021
 }
 \keyword{Date}
 \keyword{Days}
