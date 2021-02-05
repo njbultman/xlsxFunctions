@@ -13,7 +13,7 @@ LEN(text)
 Returns the number of characters in string or vector.
 }
 \description{
-Given a string or vector, convert to lowercase text.
+Given a string or vector, count the number of characters for each string.
 }
 \examples{
 LEN("hi")

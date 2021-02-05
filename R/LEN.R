@@ -1,6 +1,6 @@
 #' Count Characters in String or Vector
 #'
-#' Given a string or vector, convert to lowercase text.
+#' Given a string or vector, count the number of characters for each string.
 #'
 #' @return Returns the number of characters in string or vector.
 #' @author Nick Bultman, \email{njbultman74@@gmail.com}, February 2021
