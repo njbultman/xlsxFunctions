@@ -1,5 +1,5 @@
 test_that("Works when inputs entered correctly", {
-  expect_equal(round(PV(0.1, 3, c(50, 100, 150), 100), 2), 315.93)
+  expect_equal(round(PV(0.1, 3, c(50, 100, 150), 100), 2), round(100 / 1.1^3 + 150 / 1.1^3 + 100/1.1^2 + 50/1.1, 2))
 })
 
 test_that("Error when payment stream does not equal number of periods", {

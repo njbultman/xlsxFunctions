@@ -11,7 +11,7 @@ PV(rate, nper, pmt, fv)
 
 \item{nper}{Number of periods to use when discounting the future value.}
 
-\item{pmt}{Vector of payments (should match nper).}
+\item{pmt}{Vector of future cash flows (should match nper). Starts at t = 1.}
 
 \item{fv}{Future amount you wish to discount.}
 }

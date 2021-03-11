@@ -13,7 +13,7 @@
 #'
 #' @param rate Interest rate you would like used when discounting.
 #' @param nper Number of periods to use when discounting the future value.
-#' @param pmt Vector of payments (should match nper).
+#' @param pmt Vector of future cash flows (should match nper). Starts at t = 1.
 #' @param fv Future amount you wish to discount.
 #'
 PV <- function(rate, nper, pmt, fv) {
