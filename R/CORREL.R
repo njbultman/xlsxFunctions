@@ -16,13 +16,12 @@
 #'
 CORREL <- function(vec1, vec2) {
   if (class(vec1) == "numeric" | class(vec1) == "integer") {
-    if (class(vec1) == "numeric" | class(vec1) == "integer") {
+    if (class(vec2) == "numeric" | class(vec2) == "integer") {
       return(cor(vec1, vec2))
-    }
-    else {
+    } else {
       stop("Invalid vector 2 type: Vector not numeric or integer.")
     }
-} else {
+ } else {
     stop("Invalid vector 1 type: Vector not numeric or integer.")
   }
 }

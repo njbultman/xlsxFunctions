@@ -7,5 +7,5 @@ test_that("error for incorrect vec1", {
 })
 
 test_that("error for incorrect vec2", {
-  expect_error(round(CORREL(c(1, 2, 4, 1), c(2, 5, "hi", 2)), 2), "Invalid vector 1 type: Vector not numeric or integer.")
+  expect_error(round(CORREL(c(1, 2, 4, 1), c(2, 5, "hi", 2)), 2), "Invalid vector 2 type: Vector not numeric or integer.")
 })
