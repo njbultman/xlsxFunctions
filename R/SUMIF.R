@@ -10,20 +10,20 @@
 #' @keywords conditional sum
 #' @export
 #' @examples
-#' SUM_IF(iris$Sepal.Length, iris$Species, "virginica")
-#' SUM_IF(c(1, 2, 3), c(3, 1, 3), 3)
+#' SUMIF(iris$Sepal.Length, iris$Species, "virginica")
+#' SUMIF(c(1, 2, 3), c(3, 1, 3), 3)
 #'
 #' @param sum_vector Vector that you would like to sum.
 #' @param condition_vector Vector that you would like condition specified for.
 #' @param condition Value that will satisfy certain components in condition vector.
 #'
-SUM_IF <- function(sum_vector, condition_vector, condition) {
+SUMIF <- function(sum_vector, condition_vector, condition) {
 
   x <- data.frame(sum_vec = sum_vector,
                   cond_vec = condition_vector,
                   stringsAsFactors = FALSE)
 
-  y <- sum(subset(x, condition_vector == condition)$sum_vec)
+  y <- sum(x[x$cond_vec == condition, "sum_vec"])
 
   return(y)
 
