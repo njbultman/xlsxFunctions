@@ -2,7 +2,7 @@
 % Please edit documentation in R/EXACT.R
 \name{EXACT}
 \alias{EXACT}
-\title{Test if Two Strings or Vector of Strings are Equal}
+\title{Test if Two Strings or Vectors of Strings are Equal}
 \usage{
 EXACT(text1, text2)
 }
